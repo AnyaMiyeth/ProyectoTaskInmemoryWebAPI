@@ -9,8 +9,8 @@ export class InMemoryDataService implements  InMemoryDbService  {
 
   createDb() {
     const tasks = [
-      {id: 11, title: 'Analisis de Requerimiento', Descripcion: 'Se requiere visualizar...', priority: true},
-      {id: 12, title: 'Diseño de la arquitectura', Descripcion: 'Se requiere visualizar...', priority: true}
+      {id: 11, title: 'Analisis de Requerimiento', description: 'Se requiere visualizar...', priority: true},
+      {id: 12, title: 'Diseño de la arquitectura', description: 'Se requiere visualizar diseño...', priority: true}
     ];
 
     return {tasks};

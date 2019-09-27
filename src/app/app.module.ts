@@ -11,14 +11,13 @@ import { InMemoryDataService } from './service/in-memory-data.service';
 import { TaskDataService } from './service/task-data.service';
 import { FormsModule } from '@angular/forms';
 import { TaskEditComponent} from './task-edit/task-edit.component';
-import { TaskDeleteComponent } from './task-delete/task-delete.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     TaskListComponent,
     TaskAddComponent,
-    TaskEditComponent,
-    TaskDeleteComponent
+    TaskEditComponent
   ],
   imports: [
     FormsModule,
